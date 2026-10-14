@@ -1,0 +1,20 @@
+{
+  "bounds": {
+    "omega_pc1": [
+      0.1,
+      0.2
+    ],
+    "omega_pc2": [
+      0.1,
+      0.2
+    ],
+    "omega_pc3": [
+      0.1,
+      0.5
+    ]
+  },
+  "init_points": 5,
+  "n_iter": 5,
+  "random_state": 42,
+  "timestamp": "2025-09-15T11:17:44.422951"
+}

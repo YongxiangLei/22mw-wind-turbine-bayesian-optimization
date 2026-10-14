@@ -1,0 +1,90 @@
+2025-09-15 11:17:44,183 - INFO - Logging initialized. Log directory: optimization_logs_20250915_111744
+2025-09-15 11:17:44,422 - INFO - Starting optimization with parameter file: e:\Wind_Ctrl\22MW_WindTurbine\Code\IEA-22-280-RWT-main\OpenFAST\IEA-22-280-RWT-Monopile\IEA-22-280-RWT-Monopile.yaml
+2025-09-15 11:17:44,422 - INFO - Path parameters: {'FAST_InputFile': 'IEA-22-280-RWT-Monopile.fst', 'FAST_directory': '.', 'rotor_performance_filename': '../IEA-22-280-RWT/IEA-22-280-RWT_Cp_Ct_Cq.txt'}
+2025-09-15 11:17:44,427 - INFO - Starting Bayesian optimization...
+2025-09-15 11:17:44,427 - INFO - 
+============================================================
+2025-09-15 11:17:44,429 - INFO - Starting iteration 1
+2025-09-15 11:17:44,429 - INFO - Testing omega_pc = [0.1375, 0.1951, 0.3928]
+2025-09-15 11:17:45,385 - INFO - DISCON file saved for iteration 1
+2025-09-15 11:17:45,428 - INFO - Gain schedule plot saved for iteration 1
+2025-09-15 11:17:45,428 - INFO - Running OpenFAST for iteration 1
+2025-09-15 15:20:47,417 - INFO - Iteration 1 completed: MSE=154342.87, Time=14581.99s
+2025-09-15 15:20:47,473 - INFO - 
+============================================================
+2025-09-15 15:20:47,473 - INFO - Starting iteration 2
+2025-09-15 15:20:47,473 - INFO - Testing omega_pc = [0.1599, 0.1156, 0.1624]
+2025-09-15 15:20:48,335 - INFO - DISCON file saved for iteration 2
+2025-09-15 15:20:48,676 - INFO - Gain schedule plot saved for iteration 2
+2025-09-15 15:20:48,676 - INFO - Running OpenFAST for iteration 2
+2025-09-15 19:28:17,172 - INFO - Iteration 2 completed: MSE=60950.57, Time=14848.50s
+2025-09-15 19:28:17,225 - INFO - 
+============================================================
+2025-09-15 19:28:17,225 - INFO - Starting iteration 3
+2025-09-15 19:28:17,225 - INFO - Testing omega_pc = [0.1058, 0.1866, 0.3404]
+2025-09-15 19:28:18,134 - INFO - DISCON file saved for iteration 3
+2025-09-15 19:28:18,490 - INFO - Gain schedule plot saved for iteration 3
+2025-09-15 19:28:18,490 - INFO - Running OpenFAST for iteration 3
+2025-09-15 23:36:46,944 - INFO - Iteration 3 completed: MSE=56439.73, Time=14908.45s
+2025-09-15 23:36:47,000 - INFO - 
+============================================================
+2025-09-15 23:36:47,000 - INFO - Starting iteration 4
+2025-09-15 23:36:47,001 - INFO - Testing omega_pc = [0.1708, 0.1021, 0.4880]
+2025-09-15 23:36:48,099 - INFO - DISCON file saved for iteration 4
+2025-09-15 23:36:48,425 - INFO - Gain schedule plot saved for iteration 4
+2025-09-15 23:36:48,425 - INFO - Running OpenFAST for iteration 4
+2025-09-16 03:42:55,394 - INFO - Iteration 4 completed: MSE=136194.31, Time=14766.97s
+2025-09-16 03:42:55,449 - INFO - 
+============================================================
+2025-09-16 03:42:55,449 - INFO - Starting iteration 5
+2025-09-16 03:42:55,449 - INFO - Testing omega_pc = [0.1832, 0.1212, 0.1727]
+2025-09-16 03:42:56,326 - INFO - DISCON file saved for iteration 5
+2025-09-16 03:42:56,649 - INFO - Gain schedule plot saved for iteration 5
+2025-09-16 03:42:56,649 - INFO - Running OpenFAST for iteration 5
+2025-09-16 07:45:13,930 - INFO - Iteration 5 completed: MSE=174820.80, Time=14537.28s
+2025-09-16 07:45:14,052 - INFO - 
+============================================================
+2025-09-16 07:45:14,052 - INFO - Starting iteration 6
+2025-09-16 07:45:14,052 - INFO - Testing omega_pc = [0.1612, 0.1177, 0.2311]
+2025-09-16 07:45:14,876 - INFO - DISCON file saved for iteration 6
+2025-09-16 07:45:15,265 - INFO - Gain schedule plot saved for iteration 6
+2025-09-16 07:45:15,280 - INFO - Running OpenFAST for iteration 6
+2025-09-16 12:05:28,595 - INFO - Iteration 6 completed: MSE=73894.46, Time=15613.33s
+2025-09-16 12:05:28,694 - INFO - 
+============================================================
+2025-09-16 12:05:28,694 - INFO - Starting iteration 7
+2025-09-16 12:05:28,699 - INFO - Testing omega_pc = [0.1476, 0.1515, 0.4148]
+2025-09-16 12:05:29,580 - INFO - DISCON file saved for iteration 7
+2025-09-16 12:05:29,945 - INFO - Gain schedule plot saved for iteration 7
+2025-09-16 12:05:29,945 - INFO - Running OpenFAST for iteration 7
+2025-09-16 16:24:57,978 - INFO - Iteration 7 completed: MSE=283027.07, Time=15568.03s
+2025-09-16 16:24:58,089 - INFO - 
+============================================================
+2025-09-16 16:24:58,089 - INFO - Starting iteration 8
+2025-09-16 16:24:58,089 - INFO - Testing omega_pc = [0.1154, 0.1759, 0.3385]
+2025-09-16 16:24:58,940 - INFO - DISCON file saved for iteration 8
+2025-09-16 16:24:59,276 - INFO - Gain schedule plot saved for iteration 8
+2025-09-16 16:24:59,277 - INFO - Running OpenFAST for iteration 8
+2025-09-16 20:37:55,966 - INFO - Iteration 8 completed: MSE=200152.65, Time=15176.69s
+2025-09-16 20:37:56,078 - INFO - 
+============================================================
+2025-09-16 20:37:56,079 - INFO - Starting iteration 9
+2025-09-16 20:37:56,079 - INFO - Testing omega_pc = [0.1202, 0.1091, 0.2260]
+2025-09-16 20:37:57,359 - INFO - DISCON file saved for iteration 9
+2025-09-16 20:37:57,678 - INFO - Gain schedule plot saved for iteration 9
+2025-09-16 20:37:57,678 - INFO - Running OpenFAST for iteration 9
+2025-09-17 00:44:37,508 - INFO - Iteration 9 completed: MSE=37327.58, Time=14799.83s
+2025-09-17 00:44:37,604 - INFO - 
+============================================================
+2025-09-17 00:44:37,604 - INFO - Starting iteration 10
+2025-09-17 00:44:37,604 - INFO - Testing omega_pc = [0.1519, 0.1121, 0.1314]
+2025-09-17 00:44:38,429 - INFO - DISCON file saved for iteration 10
+2025-09-17 00:44:38,759 - INFO - Gain schedule plot saved for iteration 10
+2025-09-17 00:44:38,759 - INFO - Running OpenFAST for iteration 10
+2025-09-17 04:50:23,683 - INFO - Iteration 10 completed: MSE=108267.44, Time=14744.92s
+2025-09-17 04:50:23,729 - INFO - ============================================================
+2025-09-17 04:50:23,729 - INFO - OPTIMIZATION COMPLETE
+2025-09-17 04:50:23,729 - INFO - Best parameters: {'omega_pc1': np.float64(0.12023637317843372), 'omega_pc2': np.float64(0.10905323071992204), 'omega_pc3': np.float64(0.2260157055858184)}
+2025-09-17 04:50:23,729 - INFO - Best objective: -37327.5755
+2025-09-17 04:50:23,729 - INFO - Total time: 149559.30 seconds
+2025-09-17 04:50:23,729 - INFO - README file created in optimization_logs_20250915_111744

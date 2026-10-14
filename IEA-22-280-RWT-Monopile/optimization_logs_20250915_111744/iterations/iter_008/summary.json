@@ -1,0 +1,15 @@
+{
+  "iteration": 8,
+  "parameters": {
+    "omega_pc1": 0.11536376233443772,
+    "omega_pc2": 0.1759299535132061,
+    "omega_pc3": 0.3385127061849178
+  },
+  "results": {
+    "objective": -200152.6457650882,
+    "mse": 200152.6457650882,
+    "status": "SUCCESS"
+  },
+  "execution_time": 15176.689866065979,
+  "timestamp": "2025-09-16T20:37:56.015436"
+}
