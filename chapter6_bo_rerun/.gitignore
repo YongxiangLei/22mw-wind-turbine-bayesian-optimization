@@ -1,0 +1,15 @@
+# Simulation results and run state are not version-controlled
+runs/
+ch6_outputs/
+logs/
+_sys/
+__pycache__/
+*.pyc
+*.outb
+*.out
+*.log
+*.pid
+rerun_console.txt
+results.csv
+final_results.json
+pause_state.json
